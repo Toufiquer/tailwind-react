@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import CustomLink from "../CustomLink/CustomLink";
 const Link = ({ route, route: { link } }) => {
     const navigate = useNavigate();

@@ -25,7 +25,7 @@ const Shop = () => {
     return (
         <div className="grid grid-cols-[400px_minmax(900px,_1fr)]  min-h-screen items-stretch">
             <section className=" bg-slate-200 relative">
-                <div className="sticky top-0">
+                <div className="p-6">
                     {users.map(user => (
                         <Button
                             key={user.id}
@@ -35,7 +35,7 @@ const Shop = () => {
                     ))}
                 </div>
             </section>
-            <section className="p-6">
+            <section className="sticky top-0">
                 {item.map(item => (
                     <Card key={item.id} item={item}></Card>
                 ))}
