@@ -21,8 +21,8 @@ function App() {
                 <Route path="/about/:id" element={<AboutDetails />}></Route>
 
                 <Route path="/contact" element={<Contact />}></Route>
-                <Route path="/shop/:id" element={<Shop />}></Route>
                 <Route path="/shop" element={<Shop />}></Route>
+                <Route path="/shop/:id" element={<Shop />}></Route>
                 <Route path="/order" element={<Order />}></Route>
                 <Route path="*" element={<NotFound></NotFound>} />
             </Routes>

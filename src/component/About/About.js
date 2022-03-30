@@ -6,7 +6,7 @@ const About = () => {
     for (let i = 1; i <= 5; i++) {
         let item = {
             id: i,
-            name: "Person " + i,
+            name: "About " + i,
             link: i,
         };
         aboutPersons.push(item);
